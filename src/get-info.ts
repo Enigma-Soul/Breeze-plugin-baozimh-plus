@@ -11,11 +11,11 @@ export function buildPluginInfo(): InfoContract {
       describe: "包子漫画增强插件",
     },
     describe: "包子漫画增强：翻页预读",
-    version: "0.5.1",
+    version: "0.5.2",
     home: "https://github.com/Enigma-Soul/Breeze-plugin-baozimh-plus",
+    // 更新只走 GitHub Release（npmName 未发布 npm 包，新版客户端 npm 通道优先会 404 致安装失败）
     updateUrl:
       "https://api.github.com/repos/Enigma-Soul/Breeze-plugin-baozimh-plus/releases/latest",
-    npmName: "breeze-plugin-baozimh-plus",
     function: [],
   };
 }
