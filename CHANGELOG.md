@@ -3,6 +3,11 @@
 > 每个版本一个 `# 版本号` 段落，下设 `### Feat(<范围>):` / `### Fix:` 子段。
 > CI 发版时自动提取对应版本段落作为 GitHub Release 正文。
 
+# 0.5.2
+
+### Fix(更新通道):
+- 适配新版 Breeze 更新接口（npm 通道优先）：移除 `npmName` 字段。该 npm 包从未发布，新客户端安装/同步时优先查 npm 404 导致无法安装；现仅保留 GitHub Release `updateUrl` 通道
+
 # 0.5.1
 
 ### Chore(繁简):
